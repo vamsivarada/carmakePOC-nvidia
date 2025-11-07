@@ -1,0 +1,382 @@
+{
+  "license_plates": [
+    {
+      "frame": 87,
+      "plate": "LDL277",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.0010461766505613923
+    },
+    {
+      "frame": 255,
+      "plate": "6B8698",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.021993964910507202
+    },
+    {
+      "frame": 256,
+      "plate": "QB687",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.026992913335561752
+    },
+    {
+      "frame": 257,
+      "plate": "6B5088",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.0043629189021885395
+    },
+    {
+      "frame": 777,
+      "plate": "528107",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.012950858101248741
+    },
+    {
+      "frame": 778,
+      "plate": "P2P60",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.010486090555787086
+    },
+    {
+      "frame": 811,
+      "plate": "012",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.15523557364940643
+    },
+    {
+      "frame": 812,
+      "plate": "012",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.06014331802725792
+    },
+    {
+      "frame": 815,
+      "plate": "5898",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.002882760250940919
+    },
+    {
+      "frame": 819,
+      "plate": "188",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.0803016945719719
+    },
+    {
+      "frame": 821,
+      "plate": "U888",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.03399564325809479
+    },
+    {
+      "frame": 822,
+      "plate": "058",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.034100573509931564
+    },
+    {
+      "frame": 863,
+      "plate": "83788",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.07259861379861832
+    },
+    {
+      "frame": 864,
+      "plate": "811213",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.0056939562782645226
+    },
+    {
+      "frame": 867,
+      "plate": "58007",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.12958648800849915
+    },
+    {
+      "frame": 868,
+      "plate": "A17",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.07833623141050339
+    },
+    {
+      "frame": 932,
+      "plate": "P09",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.03425132483243942
+    },
+    {
+      "frame": 933,
+      "plate": "5C5",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.014700471423566341
+    },
+    {
+      "frame": 934,
+      "plate": "NGN772",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.03279797360301018
+    },
+    {
+      "frame": 935,
+      "plate": "NCR85",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.0032884918618947268
+    },
+    {
+      "frame": 937,
+      "plate": "6H2",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.07663954794406891
+    },
+    {
+      "frame": 1127,
+      "plate": "WL7",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.22144533693790436
+    },
+    {
+      "frame": 1315,
+      "plate": "6W5987",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.004861882422119379
+    },
+    {
+      "frame": 1318,
+      "plate": "5P72",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.007909347303211689
+    },
+    {
+      "frame": 1320,
+      "plate": "9471",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.06440919637680054
+    },
+    {
+      "frame": 1321,
+      "plate": "6V497",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.01306848507374525
+    },
+    {
+      "frame": 1322,
+      "plate": "471",
+      "vehicle_type": "car",
+      "vehicle_id": 18446744073709551615,
+      "confidence": 0.06011468544602394
+    }
+  ],
+  "summary": {
+    "total_frames": 1442,
+    "total_detections": 27,
+    "unique_plates": 26,
+    "plates": [
+      {
+        "plate": "LDL277",
+        "vehicle_type": "car",
+        "confidence": 0.0010461766505613923,
+        "first_seen_frame": 87,
+        "detection_count": 1
+      },
+      {
+        "plate": "6B8698",
+        "vehicle_type": "car",
+        "confidence": 0.021993964910507202,
+        "first_seen_frame": 255,
+        "detection_count": 1
+      },
+      {
+        "plate": "QB687",
+        "vehicle_type": "car",
+        "confidence": 0.026992913335561752,
+        "first_seen_frame": 256,
+        "detection_count": 1
+      },
+      {
+        "plate": "6B5088",
+        "vehicle_type": "car",
+        "confidence": 0.0043629189021885395,
+        "first_seen_frame": 257,
+        "detection_count": 1
+      },
+      {
+        "plate": "528107",
+        "vehicle_type": "car",
+        "confidence": 0.012950858101248741,
+        "first_seen_frame": 777,
+        "detection_count": 1
+      },
+      {
+        "plate": "P2P60",
+        "vehicle_type": "car",
+        "confidence": 0.010486090555787086,
+        "first_seen_frame": 778,
+        "detection_count": 1
+      },
+      {
+        "plate": "012",
+        "vehicle_type": "car",
+        "confidence": 0.15523557364940643,
+        "first_seen_frame": 811,
+        "detection_count": 2
+      },
+      {
+        "plate": "5898",
+        "vehicle_type": "car",
+        "confidence": 0.002882760250940919,
+        "first_seen_frame": 815,
+        "detection_count": 1
+      },
+      {
+        "plate": "188",
+        "vehicle_type": "car",
+        "confidence": 0.0803016945719719,
+        "first_seen_frame": 819,
+        "detection_count": 1
+      },
+      {
+        "plate": "U888",
+        "vehicle_type": "car",
+        "confidence": 0.03399564325809479,
+        "first_seen_frame": 821,
+        "detection_count": 1
+      },
+      {
+        "plate": "058",
+        "vehicle_type": "car",
+        "confidence": 0.034100573509931564,
+        "first_seen_frame": 822,
+        "detection_count": 1
+      },
+      {
+        "plate": "83788",
+        "vehicle_type": "car",
+        "confidence": 0.07259861379861832,
+        "first_seen_frame": 863,
+        "detection_count": 1
+      },
+      {
+        "plate": "811213",
+        "vehicle_type": "car",
+        "confidence": 0.0056939562782645226,
+        "first_seen_frame": 864,
+        "detection_count": 1
+      },
+      {
+        "plate": "58007",
+        "vehicle_type": "car",
+        "confidence": 0.12958648800849915,
+        "first_seen_frame": 867,
+        "detection_count": 1
+      },
+      {
+        "plate": "A17",
+        "vehicle_type": "car",
+        "confidence": 0.07833623141050339,
+        "first_seen_frame": 868,
+        "detection_count": 1
+      },
+      {
+        "plate": "P09",
+        "vehicle_type": "car",
+        "confidence": 0.03425132483243942,
+        "first_seen_frame": 932,
+        "detection_count": 1
+      },
+      {
+        "plate": "5C5",
+        "vehicle_type": "car",
+        "confidence": 0.014700471423566341,
+        "first_seen_frame": 933,
+        "detection_count": 1
+      },
+      {
+        "plate": "NGN772",
+        "vehicle_type": "car",
+        "confidence": 0.03279797360301018,
+        "first_seen_frame": 934,
+        "detection_count": 1
+      },
+      {
+        "plate": "NCR85",
+        "vehicle_type": "car",
+        "confidence": 0.0032884918618947268,
+        "first_seen_frame": 935,
+        "detection_count": 1
+      },
+      {
+        "plate": "6H2",
+        "vehicle_type": "car",
+        "confidence": 0.07663954794406891,
+        "first_seen_frame": 937,
+        "detection_count": 1
+      },
+      {
+        "plate": "WL7",
+        "vehicle_type": "car",
+        "confidence": 0.22144533693790436,
+        "first_seen_frame": 1127,
+        "detection_count": 1
+      },
+      {
+        "plate": "6W5987",
+        "vehicle_type": "car",
+        "confidence": 0.004861882422119379,
+        "first_seen_frame": 1315,
+        "detection_count": 1
+      },
+      {
+        "plate": "5P72",
+        "vehicle_type": "car",
+        "confidence": 0.007909347303211689,
+        "first_seen_frame": 1318,
+        "detection_count": 1
+      },
+      {
+        "plate": "9471",
+        "vehicle_type": "car",
+        "confidence": 0.06440919637680054,
+        "first_seen_frame": 1320,
+        "detection_count": 1
+      },
+      {
+        "plate": "6V497",
+        "vehicle_type": "car",
+        "confidence": 0.01306848507374525,
+        "first_seen_frame": 1321,
+        "detection_count": 1
+      },
+      {
+        "plate": "471",
+        "vehicle_type": "car",
+        "confidence": 0.06011468544602394,
+        "first_seen_frame": 1322,
+        "detection_count": 1
+      }
+    ]
+  }
+}
