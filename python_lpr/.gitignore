@@ -1,0 +1,2 @@
+echo "*.jpg" >> .gitignore
+echo "*.mp4" >> .gitignore

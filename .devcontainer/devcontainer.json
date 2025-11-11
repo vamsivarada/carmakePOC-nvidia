@@ -1,0 +1,40 @@
+// For format details, see https://aka.ms/devcontainer.json
+{
+  "name": "NVIDIA DeepStream 8.0 (Triton Multiarch)",
+
+  // Use the official NVIDIA DeepStream 8.0 Triton image``
+  "image": "nvcr.io/nvidia/deepstream:8.0-triton-multiarch",
+
+  // Enable GPU support in Dev Containers
+  "runArgs": [
+    "--gpus=all",
+    "--privileged",
+    "--network=host",
+    "-e", "DISPLAY=${localEnv:DISPLAY}",
+    "-v", "/tmp/.X11-unix:/tmp/.X11-unix"
+  ],
+
+  // Install common dependencies after container is created
+  "postCreateCommand": "apt-get update && apt-get install -y git curl vim python3 python3-pip && pip3 install --upgrade pip setuptools wheel",
+
+  // Forward useful development ports
+  "forwardPorts": [8554, 8080, 8000, 5000],
+
+  // Use bash as the default shell and install extensions
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-vscode.cpptools",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+
+  // Uncomment if you need to run as root (not recommended unless necessary)
+  // "remoteUser": "root"
+}
