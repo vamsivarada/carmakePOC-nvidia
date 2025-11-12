@@ -35,18 +35,6 @@
     "location": "Birmingham",
     "plate_display": "RO72 GGP"
   },
-  "LC20S82": {
-    "make": "citroen berlingo",
-    "type": "Sedan",
-    "location": "Birmingham",
-    "plate_display": "LC20 S82"
-  },
-  "LC20 S82": {
-    "make": "citroen berlingo",
-    "type": "Sedan",
-    "location": "Birmingham",
-    "plate_display": "LC20 S82"
-  },
   "DV57WXW": {
     "make": "SCODA",
     "type": "Sedan",
@@ -58,18 +46,6 @@
     "type": "Sedan",
     "location": "Birmingham",
     "plate_display": "DV57 WXW"
-  },
-  "4C209BZ": {
-    "make": "BMW",
-    "type": "Sedan",
-    "location": "Birmingham",
-    "plate_display": "4C20 9BZ"
-  },
-  "4C20 9BZ": {
-    "make": "BMW",
-    "type": "Sedan",
-    "location": "Birmingham",
-    "plate_display": "4C20 9BZ"
   },
   "XF18CYV": {
     "make": "mercedes",
