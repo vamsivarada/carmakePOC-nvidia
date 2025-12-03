@@ -1,0 +1,45 @@
+[property]
+gpu-id=0
+net-scale-factor=1.0
+
+# --- MODEL PATHS ---
+model-file=/workspaces/cartheft/python_lpr/models/VehicleTypenet/resnet18_pruned.onnx
+model-engine-file=/workspaces/cartheft/python_lpr/models/VehicleTypenet/resnet18_pruned.onnx_b16_gpu0_fp16.engine
+labelfile-path=/workspaces/cartheft/python_lpr/models/VehicleTypenet/labels.txt
+
+# --- GIE CONFIGURATION ---
+gie-unique-id=4
+network-type=2
+force-implicit-batch-dim=1
+batch-size=16
+
+# --- CLASSIFIER SETTINGS ---
+classifier-async-mode=0
+classifier-type=0
+
+# --- PROCESSING MODE ---
+process-mode=2
+operate-on-gie-id=1
+operate-on-class-ids=0
+
+# --- PRECISION (FP16) ---
+network-mode=2
+
+# --- INPUT/OUTPUT ---
+model-color-format=0
+maintain-aspect-ratio=1
+symmetric-padding=1
+
+# --- OUTPUT CONFIGURATION ---
+output-blob-names=predictions/Softmax:0
+num-detected-classes=20
+classifier-threshold=0.4
+
+# --- PREPROCESSING ---
+offsets=123.675;116.280;103.530
+net-scale-factor=0.017507
+model-input-pixel-normalization=1
+
+# --- ENGINE CREATION ---
+# If engine doesn't exist, it will be created
+int8-calib-file=/workspaces/cartheft/python_lpr/models/VehicleTypenet/cal_trt.bin
